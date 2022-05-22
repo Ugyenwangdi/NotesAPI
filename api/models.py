@@ -15,30 +15,3 @@ class Note(models.Model):
         ordering = ['-updated']
 
 
-
-## user=ugyen
-## pw = ugendi
-
-
-## python -m pip install django-cors-headers
-
-## INSTALLED_APPS = [
-#     ...,
-#     "corsheaders",
-#     ...,
-# ]
-
-
-
-# You will also need to add a middleware class to listen in on responses:
-
-# MIDDLEWARE = [
-#     ...,
-#     "corsheaders.middleware.CorsMiddleware",
-#     "django.middleware.common.CommonMiddleware",
-#     .
-
-
-
-
-### CORS_ALLOW_ALL_ORIGINS
